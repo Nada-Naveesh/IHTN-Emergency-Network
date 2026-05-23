@@ -1,6 +1,6 @@
 from flask import Flask
 from flask_cors import CORS
-from routes.emergency import emergency_bp
+from backend.routes.emergency import emergency_bp
 
 app = Flask(__name__)
 CORS(app)
